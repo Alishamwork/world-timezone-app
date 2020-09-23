@@ -37,7 +37,7 @@
 				<cloudHubDeployment>
 				<username>Alisham3</username>
 				<password>Feben007</password>
-				<environment>Sandbox</environment>
+				<environment>sandbox</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
 				<applicationName>worldtimezone-service</applicationName>
