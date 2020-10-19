@@ -34,16 +34,22 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+						
 				<cloudHubDeployment>
-				<username>Alisham3</username>
-				<password>Feben007</password>
-				<environment>sandbox</environment>
-				<workers>1</workers>
-				<workerType>Micro</workerType>
-				<applicationName>worldtimezone-service1</applicationName>
-				<muleVersion>4.3.0</muleVersion>
-				 <objectStoreV2>true</objectStoreV2>
-				</cloudHubDeployment>				
+				      <uri>https://anypoint.mulesoft.com</uri>
+				      <muleVersion>4.3.0</muleVersion>
+				      <username>Alisham3</username>
+				      <password>Feben007</password>
+				      <applicationName>world-timezone-service2</applicationName>
+				      <environment>Sandbox</environment>
+				      <workers>1</workers>
+				      <workerType>MICRO</workerType>
+				      <objectStoreV2>true</objectStoreV2>
+				    </cloudHubDeployment>
+				
+				
+				
+								
 				</configuration>			
 			</plugin>
 		</plugins>
